@@ -45,5 +45,26 @@ public class Item {
                 "Price: $" + price + "\n" +
                 "Availability: " + (availability ? "Yes" : "No");
     }
+
+    // Getter methods for each field if individual access is required
+    public int getItemID() {
+        return itemID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public boolean isAvailable() {
+        return availability;
+    }
 }
 
