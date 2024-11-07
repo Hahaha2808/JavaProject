@@ -1,3 +1,6 @@
+/*This current code only works when the actual SQL Database is in place. For now, the Staff-based classes will be written using a separate Account.java
+file within the HRM folder, which is much simpler to implement.*/
+    
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
