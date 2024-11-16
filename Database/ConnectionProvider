@@ -1,1 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package dao;
+import java.sql.*; 
 
+public class ConnectionProvider {
+    public static Connection getCon() {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");  // Updated driver class name
+            Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/cms?useSSL=false", 
+                "root", 
+                "Mysql2024"
+            );
+            return con;
+        }
+        catch(Exception e) {
+            e.printStackTrace();  // This will print the actual error
+            return null;
+        }
+    }
+    
+    public static void main(String[] args) {
+        Connection c = getCon();
+        if (c == null) {
+            System.out.println("something wrong");
+        } else {
+            System.out.println("ok");
+        }
+    }
+}
