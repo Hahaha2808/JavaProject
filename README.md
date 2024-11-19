@@ -22,3 +22,23 @@ Welcome to our group's Restaurant Management System project! To ensure that the 
 
 6. Run the file Login.java within the GUI folder to begin the application.
 
+# Troubleshooting
+
+In the event that when importing the project and the name is displayed in red, it is most likely JDK version issue:
+
+![Alt](Images%20for%20README/red.png)
+
+Please do the following:
+
+1. Right click the project and look for Resolve Project Problems
+
+2. You will be brought to this screen, click on Resolve
+
+![Alt](Images%20for%20README/resolve.png)
+
+4. In the next screen, please change the version to JDK 23
+
+![Alt](Images%20for%20README/jdk23.png)
+
+
+
