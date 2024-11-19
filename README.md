@@ -1,4 +1,4 @@
-ee# Restaurant Management System Project
+# Restaurant Management System Project
 
 Welcome to our group's Restaurant Management System project! To ensure that the application runs well, please do the following:
 
