@@ -3,15 +3,16 @@
 Welcome to our group's Restaurant Management System project! To ensure that the application runs well, please do the following:
 
 1. Ensure that you have JDK 23 installed on your system as this project was built with JDK 23.
+
 2. Ensure that MySQL is currently running on your system. Open our Database Schema SQL script inside MySQL Workbench (8.0 CE), ensuring that you have an active local instance and make sure you remember or note down your password to this instance. Have a database selected (it is selected when the name is bold). Then run the script using the lightning icon to create the database used for our project.
 
-
+![Alt](Images%20for%20README/schema.png)
 
 3. Download the project ZIP file and then import into Netbeans IDE.
 
 ![ALt](Images%20for%20README/import.png)
 
-4. Once imported, head over to ConnectionProvider.java.
+4. Once imported, head over to ConnectionProvider.java within Database folder.
 
 ![Alt](Images%20for%20README/connection.png)
 
@@ -19,4 +20,5 @@ Welcome to our group's Restaurant Management System project! To ensure that the 
 
 ![Alt](Images%20for%20README/infochange.png)
 
+6. Run the file Login.java within the GUI folder to begin the application.
 
