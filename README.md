@@ -16,7 +16,7 @@ Welcome to our group's Restaurant Management System project! To ensure that the 
 
 ![Alt](Images%20for%20README/connection.png)
 
-5. Change the following details at the start of the code. Change the name after localhost:3306/ to the name you used for the database within MySQL Workbench. The next line "root" should be fine as is unless you used a different username, if so change it to fit yours. Finally, the next line is the password to your instance in MySQL, change this to the password that you set.
+5. Change the following details at the start of the code. Change the name after localhost:3306/ to the name you used for the database within MySQL Workbench. The next line "root" should be fine as is unless you used a different username, if so change it to fit yours. Finally, the next line is the password to your instance in MySQL, change this to the password that you set. Remember to use Clean and Build option when right clicking the project name after these changes. 
 
 ![Alt](Images%20for%20README/infochange.png)
 
