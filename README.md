@@ -1,4 +1,4 @@
-# Restaurant Management System Project
+ee# Restaurant Management System Project
 
 Welcome to our group's Restaurant Management System project! To ensure that the application runs well, please do the following:
 
@@ -8,7 +8,7 @@ Welcome to our group's Restaurant Management System project! To ensure that the 
 
 ![Alt](Images%20for%20README/schema.png)
 
-3. Download the project ZIP file and then import into Netbeans IDE.
+3. Download the project ZIP file from Final Submission folder and then import into Netbeans IDE.
 
 ![ALt](Images%20for%20README/import.png)
 
